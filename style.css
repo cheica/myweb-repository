@@ -9,7 +9,10 @@ body {
   h2 p {
       color: blue;
   }
+h3 {
+    color: brown;
 
+}
   .center{
     display: block;
     margin-left: auto;
@@ -20,4 +23,10 @@ body {
 
   .topnav {
     text-align: center;
+  }
+
+  ul, ol {
+    display: inline-block;
+    *display: inline;
+    zoom: 1
   }

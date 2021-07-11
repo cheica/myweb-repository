@@ -7,3 +7,4 @@ let p = document.createElement("p");
 document.querySelector('h2').appendChild(p);
 
 p.innerHTML = "Welcome to my website! This page includes some basic information about me. Hope you enjoy!";
+
