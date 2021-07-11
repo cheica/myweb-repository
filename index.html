@@ -38,9 +38,41 @@
             <li>Vermont</li>
 
           </ol>
+
+          
+      </ul>
+      <h2>Professional Background: </h2>
+
+      <ul>
+          <li>Rutgers University</li>
+            <ul>
+                <li>BA in Information Technology and Informatics</li>
+                <li>Minor in Digital Communication, Information and Media</li>
+            </ul>
+          <li>1.5 yrs. work experience as an IT Coordinator </li>
+          <li>6 mon. experience as an IT Specialist</li>
       </ul>
 
       <h3> Please click <a href="https://twitter.com/chelsea_icaza">here</a> to Contact Me!</h3>
+
+      <section id="app">
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <div class="comment">
+            <p v-for="items in item" v-text="items"></p>
+              </div><!--End Comment-->
+              </div><!--End col -->
+              </div><!-- End row -->
+          <div class="row">
+            <div class="col-6">
+          <textarea type="text" class="input" placeholder="Write a comment" v-model="newItem" @keyup.enter="addItem()"></textarea>
+              <button v-on:click="addItem()" class='primaryContained float-right' type="submit">Add Comment</button>
+            </div><!-- End col -->
+          </div><!--End Row -->
+        </div><!--End Container -->
+      </section><!-- end App -->
+    
 
   </body>
 </html> 

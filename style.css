@@ -30,3 +30,22 @@ h3 {
     *display: inline;
     zoom: 1
   }
+
+  .container {
+	max-width: 840px;
+	margin: 50px auto;
+	background: yellow;
+	border-radius: 8px;
+	padding: 20px;
+}
+
+.comment {
+	display: block;
+	transition: all 1s;
+}
+.commentClicked {
+	min-height: 0px;
+	border: 1px solid #eee;
+	border-radius: 5px;
+	padding: 5px 10px
+}
